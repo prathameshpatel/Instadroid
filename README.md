@@ -14,7 +14,7 @@ Functionality:
 4) User can like or unlike photos from Feed and Details views
 5) Logout using user avatar in Action bar/Menu icon in Feed view (upper right corner)
 
-Please insert your client_id and redirect_url in Constants.java in main package
+---Replace your client_id and redirect_url in Constants.java in main package---
 
 Path to Constants.java = app\src\main\java\io\github\prathameshpatel\instadroid\Constants.java
 
