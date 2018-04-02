@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="io.github.prathameshpatel.instadroid.activities.DetailsActivity">
+
+    <ImageView
+        android:id="@+id/details_photo"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_margin="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="8dp">
+
+        <ImageButton
+            android:id="@+id/details_likes_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/feed_like_default"
+            android:background="@color/transparent"/>
+
+        <TextView
+            android:id="@+id/details_likes_text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/details_likes_hint"/>
+
+        <TextView
+            android:id="@+id/details_time_text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical|end"
+            android:hint="@string/details_time_hint"/>
+
+    </LinearLayout>
+
+</LinearLayout>
